@@ -1,0 +1,27 @@
+{
+    "name": "store",
+    "version": "1.0.0",
+    "description": "Simple key/value store CLI using only the core Node API",
+    "main": "index.js",
+    "scripts": {
+        "test": "store test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GuillaumeMersch/store_cli_node.git"
+    },
+    "keywords": [
+        "node",
+        "CLI",
+        "store"
+    ],
+    "author": "Guillaume Mersch",
+    "license": "MIT",
+    "bin": {
+        "store": "./index.js"
+    },
+    "bugs": {
+        "url": "https://github.com/GuillaumeMersch/store_cli_node/issues"
+    },
+    "homepage": "https://github.com/GuillaumeMersch/store_cli_node#readme"
+}
