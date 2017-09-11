@@ -17,7 +17,7 @@ else if (store_command === "list") {
 }
 else if (store_command === "get") {
     const result = simple_storage.get(store_key);
-    simple_output.get(result);
+    simple_output.get(store_key, result);
 }
 else if (store_command === "remove") {
     simple_storage.remove(store_key);
