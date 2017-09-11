@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 'use strict';
 
+// This file simply reads the arguments from the command
+// then calls the proper storage function of simple_storage
+// then displays the result using the proper function of simple_output
+
 var simple_storage = require('./simple_storage');
 var simple_output = require('./simple_output');
 
